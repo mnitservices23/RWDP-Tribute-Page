@@ -1,2 +1,100 @@
+<!doctype html>
+<html>
+    <head>
+    <Title>Tribute Page - Jose Garcia</Title>
+    
+    <style>
+        html{
+            font-size:10px;
+        }
+        body{
+            background: url('images/galaxy-min.jpeg') round;
+            background-size:cover; 
+            background-color: gray;        
+            text-align: center;
+            font-family: cursive;
+            font-size:1.6rem;
+            color: aliceblue;
+        }
+        #main{
+            margin:20px 10px;
+            
+        }
+       
+        .container{
+            width: 100%;
+            display: flex;
+            justify-content:space-between;
+            
+        }
+        .left{width: 38%;}
+        .right{width:60%;}
+        
+        .left,.right{
+            background: #29262694;
+            border-radius: 10px;
+            box-shadow: 8px 11px 9px #9e9e9e;
 
-Test
+            }
+        
+        #image{
+                max-width: 100%;
+                margin:  20px auto;
+                }
+        #tribute-info{
+                text-align: justify;
+                padding: 16px;
+        }
+        footer {
+            background: #b5b5b5c2;
+            /* display: block; */
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        @media (max-width:767px){
+            .container{
+                flex-direction: column;
+            }
+            .left, .right{width: 100%;}
+        }
+    </style>
+    </head>
+    
+    <body>
+        <div id="main">
+            <h1 id="title">Jose Garcia - Fighter of Justice</h1>
+            <p>The man who dedicated his life to service others</p>
+            
+            <div class="container">
+                <div class="left"> 
+                    <figure id="img-div">
+                        <img id="image" src="images/dad.jpg" alt="Jose Garcia in his battle-suite"/>
+                        <figcaption id="img-caption">Jose Garcia in his battle suit prepared to fight, in all aspects of life including his day to day battle against Diabetes.</figcaption>
+                    </figure>
+                </div>  
+                
+                <div class="right">
+                   
+                   <section id="tribute-info">
+                       
+                          <h2>Who Was Jose Garcia?</h2>
+                          <p>
+                            Jose was more than the ordinary person, he was an extraordinary teacher, mentor, legal advisor, law enforcer and social activist apart from being a father and loving husband. Jose grew up in a poor family and due to this had a very hard time in his childhood days. He always was a fighter and positive thinker, finding the light even in the darkest moments. Since childhood, he showed his high will-power and willingness to make the most of every opportunity he had. For example, when going to primary school he used BBQ carbons and Cardboard to do his note-taking and HW since his parents couldn't afford for the basic school necessities. When he got older, he began farming his own veggies along with his father and would go house to house selling his produce to help his family. Due to his outspoken and charismatic personality, he got opportunities for school sponsorship and got to expand his education while working at local radio stations to sustain his running expense. Later he began to teach and since then he got a passion for serving people in the area. He was an inspirational teacher, making every class fun and interactive. Colleagues loved him for his humbleness and funny personality. A few years later he got recognized by the Police Department and Justice of the Peace Association where he has crowned a JP. This is when his Service to others became more noticeable as people always sought him for legal help. In his late 20s, he was diagnosed with Diabetes which hit him very hard, since this was the killer of his Mom. His life seemed to go downhill but his strong faith and willingness to fight along with positive mentality helped him all the way till the end. He will be remembered by his <b>signature laughter</b> and humbleness amongst other great characteristics.
+                          </p>
+                                                  
+                   </section>
+                    
+                </div>        
+            </div>            
+        </div>
+        <footer>
+            <h3>Jose's Favorite Bible Quotes</h3>
+            <uL>
+                <li><b>Revelation 3:20</b> Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in to him and eat with him, and he with me.</li>
+                <li><b>1 Corinthians 3:16</b> Don’t you know that you yourselves are God’s temple and that God’s Spirit dwells in your midst?</li>
+                <li>If you want to learn More about<a href="https://www.biblegateway.com/passage/?search=1+Corinthians+3%3A16&version=NIV" target="_blank"> Life Scriptures </a>click here</li>
+            </uL>
+        </footer>
+    </body>
+</html>
